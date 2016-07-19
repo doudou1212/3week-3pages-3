@@ -1,0 +1,210 @@
+body {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: white; }
+
+main {
+  width: 80%;
+  margin: 0 auto; }
+
+.grundschrift {
+  font-family: 'GrundschriftBold';
+  font-weight: normal;
+  font-style: normal; }
+
+.unique-regular {
+  font-family: 'UniqueRegular';
+  font-style: normal;
+  font-weight: normal; }
+
+.italic {
+  font-style: italic; }
+
+aside {
+  width: 18%;
+  float: left;
+  color: #36AB97;
+  margin-top: 50px; }
+  aside .logo {
+    background-image: url("../resource/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    border-radius: 20px; }
+  aside .navigator {
+    font-size: 18px; }
+    aside .navigator .nav-content {
+      padding-left: 0px; }
+    aside .navigator .nav-content li {
+      list-style-type: none;
+      margin-bottom: 10px; }
+      aside .navigator .nav-content li i {
+        margin-right: 15px;
+        font-size: 20px;
+        color: #373737; }
+  aside .social-link {
+    margin-top: 50px; }
+    aside .social-link p {
+      color: #373737; }
+    aside .social-link .title {
+      font-size: 18px;
+      color: #373737;
+      padding-bottom: 10px;
+      border-bottom: 1px #E8E8E8 dashed; }
+    aside .social-link button {
+      margin-top: 5px;
+      height: 30px;
+      width: 150px;
+      border: 1px solid #E8E8E8;
+      border-radius: 3px;
+      background-color: white;
+      color: #36AB97; }
+      aside .social-link button i {
+        margin-right: 5px;
+        font-size: 13px; }
+
+.container {
+  width: 80%;
+  float: right;
+  margin-top: 50px; }
+  .container .banner .picture {
+    height: 300px;
+    background-image: url("../resource/Victoria-Sponge-Cake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; }
+    .container .banner .picture .title {
+      font-size: 20px;
+      background-color: white;
+      color: black;
+      margin-top: 180px;
+      margin-bottom: 0px;
+      float: right;
+      height: 40px;
+      box-sizing: border-box;
+      padding: 5px 10px; }
+    .container .banner .picture .content {
+      font-size: 18px;
+      background-color: black;
+      color: white;
+      clear: both;
+      float: right;
+      height: 40px;
+      box-sizing: border-box;
+      padding: 5px 10px;
+      margin-top: 0px; }
+  .container .banner .tab-container .content-inline {
+    width: 25%;
+    height: 100px;
+    background-color: #EFF8F7;
+    float: left;
+    color: #36AB97;
+    border-right: 1px solid #E8E8E8;
+    box-sizing: border-box; }
+    .container .banner .tab-container .content-inline .title {
+      font-size: 20px;
+      margin: 20px 0 0 20px; }
+    .container .banner .tab-container .content-inline p {
+      margin: 5px 0 0 20px;
+      font-size: 15px; }
+  .container .banner .tab-container .content-inline:last-child {
+    border: none;
+    background-color: #DAEFEC; }
+  .container .banner .tab-container:after {
+    content: '';
+    display: table;
+    clear: both; }
+  .container .search {
+    clear: both;
+    margin-top: 20px;
+    height: 55px;
+    border: 1px #E8E8E8 dashed; }
+    .container .search .logo {
+      width: 50px;
+      height: 50px;
+      float: left; }
+    .container .search p {
+      width: 50%;
+      color: #373737;
+      font-size: 12px;
+      float: left; }
+    .container .search input {
+      width: 27%;
+      margin-top: 10px;
+      height: 30px;
+      border: 1px solid #E8E8E8;
+      border-radius: 3px; }
+    .container .search button {
+      width: 120px;
+      height: 30px;
+      border: 1px solid #E8E8E8;
+      background-color: white;
+      border-radius: 3px; }
+  .container .blog {
+    padding-left: 25px; }
+    .container .blog .blog-item {
+      width: 23%;
+      margin: 20px 5px;
+      float: left;
+      color: #36AB97; }
+      .container .blog .blog-item .picture {
+        height: 115px;
+        border: 1px solid #E8E8E8;
+        border-radius: 3px;
+        background-repeat: no-repeat;
+        background-size: 90% 80%;
+        background-position: 50% 50%; }
+        .container .blog .blog-item .picture.food1 {
+          background-image: url("../resource/food1.jpg"); }
+        .container .blog .blog-item .picture.food2 {
+          background-image: url("../resource/food2.jpg"); }
+        .container .blog .blog-item .picture.food3 {
+          background-image: url("../resource/food3.jpg"); }
+        .container .blog .blog-item .picture.food4 {
+          background-image: url("../resource/food4.jpg"); }
+      .container .blog .blog-item .title {
+        font-size: 15px; }
+      .container .blog .blog-item .content {
+        font-size: 12px;
+        color: #373737; }
+      .container .blog .blog-item .date {
+        color: #E8E8E8; }
+
+footer {
+  width: 82%;
+  height: 100px;
+  margin: 50px auto;
+  border-top: 1px solid #E8E8E8; }
+  footer .left {
+    width: 30%;
+    height: 80px;
+    float: left;
+    margin-top: 20px; }
+    footer .left a {
+      display: inline-block;
+      width: 95px;
+      border-right: 2px solid #36AB97;
+      color: #36AB97;
+      text-decoration: none; }
+    footer .left p {
+      width: 300px;
+      color: #E8E8E8;
+      margin: 5px 0; }
+  footer .right {
+    width: 100px;
+    float: right;
+    height: 80px;
+    margin-top: 20px; }
+    footer .right i {
+      font-size: 30px;
+      color: #E8E8E8;
+      margin-right: 3px; }
+
+.fix-float:after {
+  content: '';
+  display: table;
+  clear: both; }
+
+.contact.no-border {
+  border: none; }
