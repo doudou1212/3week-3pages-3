@@ -1,0 +1,314 @@
+$green-font:#36AB97;
+$green-bg:#EFF8F7;
+$green-active-font:#22A894;
+$green-active-bg:#DAEFEC;
+$green-border:#D4EDE9;
+$gray-border:#E8E8E8;
+$gray-font: #373737;
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.grundschrift {
+  font-family: 'GrundschriftBold';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.unique-regular {
+  font-family: 'UniqueRegular';
+  font-style: normal;
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+aside {
+  width: 18%;
+  float: left;
+  color: $green-font;
+  margin-top: 50px;
+
+  .logo {
+    background-image: url("../resource/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    border-radius: 20px;
+  }
+
+  .navigator {
+    font-size: 18px;
+
+    .nav-content {
+      padding-left: 0px;
+    }
+
+    .nav-content li {
+      list-style-type: none;
+      margin-bottom: 10px;
+
+      i {
+        margin-right: 15px;
+        font-size: 20px;
+        color: $gray-font;
+      }
+    }
+  }
+
+  .social-link {
+    margin-top: 50px;
+    p {
+      color: $gray-font;
+    }
+
+    .title {
+      font-size: 18px;
+      color: $gray-font;
+      padding-bottom: 10px;
+      border-bottom: 1px $gray-border dashed;
+    }
+
+    button {
+      margin-top: 5px;
+      height: 30px;
+      width: 150px;
+      border: 1px solid $gray-border;
+      border-radius: 3px;
+      background-color: white;
+      color: $green-font;
+
+      i {
+        margin-right: 5px;
+        font-size: 13px;
+      }
+    }
+  }
+}
+
+.container {
+  width: 80%;
+  float: right;
+  margin-top: 50px;
+
+  .banner {
+    .picture {
+      height: 300px;
+      background-image: url("../resource/Victoria-Sponge-Cake.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+
+      .title {
+        font-size: 20px;
+        background-color: white;
+        color: black;
+        margin-top: 180px;
+        margin-bottom: 0px;
+        float: right;
+        height: 40px;
+        box-sizing: border-box;
+        padding: 5px 10px;
+      }
+
+      .content {
+        font-size: 18px;
+        background-color: black;
+        color: white;
+        clear: both;
+        float: right;
+        height: 40px;
+        box-sizing: border-box;
+        padding: 5px 10px;
+        margin-top: 0px;
+      }
+    }
+
+    .tab-container {
+      .content-inline {
+        width: 25%;
+        height: 100px;
+        background-color: $green-bg;
+        float: left;
+        color: $green-font;
+        border-right: 1px solid $gray-border;
+        box-sizing: border-box;
+
+        .title {
+          font-size: 20px;
+          margin: 20px 0 0 20px;
+        }
+
+        p {
+          margin: 5px 0 0 20px;
+          font-size: 15px;
+        }
+      }
+
+      .content-inline:last-child {
+        border: none;
+        background-color: $green-active-bg;
+      }
+
+    }
+
+    .tab-container:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+  }
+
+  .search {
+    clear: both;
+    margin-top: 20px;
+    height: 55px;
+    border: 1px $gray-border dashed;
+
+    .logo {
+      width: 50px;
+      height: 50px;
+      float: left;
+    }
+
+    p {
+      width: 50%;
+      color: $gray-font;
+      font-size: 12px;
+      float: left;
+    }
+
+    input {
+      width: 27%;
+      margin-top: 10px;
+      height: 30px;
+      border: 1px solid $gray-border;
+      border-radius: 3px;
+    }
+
+    button{
+      width: 120px;
+      height: 30px;
+      border: 1px solid $gray-border;
+      background-color: white;
+      border-radius: 3px;
+    }
+  }
+
+  .blog {
+    padding-left: 25px;
+    .blog-item {
+      width: 23%;
+      margin: 20px 5px;
+      float: left;
+      color: $green-font;
+
+      .picture {
+        height: 115px;
+        border: 1px solid $gray-border;
+        border-radius: 3px;
+        background-repeat: no-repeat;
+        background-size: 90% 80%;
+        background-position: 50% 50%;
+
+        &.food1 {
+          background-image: url("../resource/food1.jpg");
+        }
+
+        &.food2 {
+          background-image: url("../resource/food2.jpg");
+        }
+
+        &.food3 {
+          background-image: url("../resource/food3.jpg");
+        }
+
+        &.food4 {
+          background-image: url("../resource/food4.jpg");
+        }
+
+      }
+
+      .title {
+        font-size: 15px;
+      }
+
+      .content {
+        font-size: 12px;
+        color: $gray-font;
+      }
+
+      .date {
+        color: $gray-border;
+      }
+
+      .read {
+
+      }
+
+    }
+  }
+}
+
+footer {
+  width: 82%;
+  height: 100px;
+  margin: 50px auto;
+  border-top:1px solid $gray-border;
+
+  .left {
+    width: 30%;
+    height: 80px;
+    float: left;
+    margin-top: 20px;
+
+    a {
+      display: inline-block;
+      width: 95px;
+      border-right: 2px solid $green-font;
+      color: $green-font;
+      text-decoration: none;
+    }
+
+    p {
+      width: 300px;
+      color: $gray-border;
+      margin: 5px 0;
+    }
+  }
+
+  .right {
+    width: 100px;
+    float: right;
+    height: 80px;
+    margin-top: 20px;
+
+    i {
+      font-size: 30px;
+      color: $gray-border;
+      margin-right: 3px;
+    }
+  }
+}
+
+.fix-float:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.contact.no-border{
+  border: none;
+}
