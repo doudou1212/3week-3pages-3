@@ -208,11 +208,12 @@ aside {
   }
 
   .blog {
-    padding-left: 25px;
+    margin-top: 20px;
     .blog-item {
-      width: 23%;
-      margin: 20px 5px;
+      width: 25%;
+      box-sizing: border-box;
       float: left;
+      padding: 0px 10px;
       color: $green-font;
 
       .picture {
@@ -259,7 +260,16 @@ aside {
       }
 
     }
+
+    .blog-item.first {
+      padding-left: 0px;
+    }
+
+    .blog-item.last {
+      padding-right: 0px;
+    }
   }
+
 }
 
 footer {
