@@ -10,12 +10,6 @@ body {
   font-style: normal;
 }
 
-.unique-regular {
-  font-family: 'UniqueRegular';
-  font-style: normal;
-  font-weight: normal;
-}
-
 .chinese-font {
   font-family: "Kaiti TC";
   font-style: normal;
@@ -86,6 +80,12 @@ main {
         background-size: cover;
         background-repeat: no-repeat;
         height: 180px;
+      }
+
+      .cd-date {
+        font-family: 'GrundschriftBold';
+        font-weight: normal;
+        font-style: normal;
       }
       .start {
         background-image: url("../resource/week3/start.png");
