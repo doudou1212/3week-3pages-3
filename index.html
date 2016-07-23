@@ -10,105 +10,182 @@
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/unique" type="text/css"/>
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/grundschrift" type="text/css"/>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="dist/week2.css">
+    <link rel="stylesheet" href="lib/style.css">
+    <script src="lib/js/main.js"></script>
+    <script src="lib/js/modernizr.js"></script>
+    <link rel="stylesheet" href="dist/week3.css">
 
 </head>
 <body>
-<main class="fix-float">
-    <aside>
-        <div class="logo"></div>
-        <nav class="navigator">
-            <ul class="nav-content">
-                <li class="nav-link unique-regular italic"><i class="fa fa-smile-o"></i>Tastemakers</li>
-                <li class="nav-link unique-regular italic"><i class="fa fa-smile-o"></i>Blog</li>
-                <li class="nav-link unique-regular italic"><i class="fa fa-smile-o"></i>The A-List</li>
-                <li class="nav-link unique-regular italic"><i class="fa fa-smile-o"></i>Contribute</li>
-                <li class="nav-link unique-regular italic"><i class="fa fa-smile-o"></i>About</li>
-            </ul>
-        </nav>
-        <div class="social-link">
-            <p class="title unique-regular">LATEST TWEET</p>
-            <button class="social-button unique-regular italic"><i class="fa fa-smile-o"></i>Join the Conversation</button>
-            <p class="title unique-regular">LETS BE FRIENDS!</p>
-            <p class="social-content unique-regular">For weekly finds, community recommendations, and more, like us on Facebook.</p>
-            <button class="social-button unique-regular italic"><i class="fa fa-smile-o"></i>Join the Community</button>
+<header class="header">
+    <div class="logo"></div>
+    <nav class="nav">
+        <div class="nav-link"><a class="welcome grundschrift">Welcome</a></div>
+        <div class="nav-link"><a class="introude grundschrift">Introduce</a></div>
+        <div class="nav-link active"><a class="twu-49 grundschrift">TWU-49</a></div>
+        <div class="nav-link"><a class="contact grundschrift">Contact Us</a></div>
+    </nav>
+</header>
+<main>
+    <section class="welcome" id="cd-timeline">
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <img src="resource/week3/foot.png" alt="Picture">
+            </div>
+            <div class="cd-timeline-content">
+                <h2 class="grundschrift">Start</h2>
+                <div class="start bg"></div>
+                <p class="grundschrift">青年节,我们拖着大大的行李箱,前往印度。迎接我们的,或许是一段异国他乡的奇妙之旅,也或许是人生地不熟的磨砺。在对前方的懵懂中,我们开始了自己的旅程。</p>
+                <span class="cd-date">2016.5.4</span>
+            </div>
         </div>
-    </aside>
-    <div class="container">
-        <section class="banner">
-            <div class="picture">
-                <p class="title unique-regular">Shop for the Best</p>
-                <p class="content unique-regular italic">With our carefully curated verdor list, you'll know what to buy.</p>
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <img src="resource/week3/foot.png" alt="Picture">
             </div>
-            <div class="tab-container">
-                <div class="content-inline ">
-                    <h3 class="title unique-regular">Tastemakers</h3>
-                    <p class="unique-regular italic">Feast your eyes & get recipes!</p>
-                </div>
-                <div class="content-inline">
-                    <h3 class="title unique-regular">Blog</h3>
-                    <p class="unique-regular italic">News, how-tos, stories, and more</p>
-                </div>
-                <div class="content-inline">
-                    <h3 class="title unique-regular">The A-List</h3>
-                    <p class="unique-regular italic">Handpicked, absolute favorites</p>
-                </div>
-                <div class="content-inline fix-float">
-                    <h3 class="title unique-regular">Contribute</h3>
-                    <p class="unique-regular italic">We want to hear from you!</p>
-                </div>
+            <div class="cd-timeline-content">
+                <h2 class="grundschrift">Arrive</h2>
+                <div class="arrive bg"></div>
+                <p class="grundschrift">到达印度已是半夜,空空的德里机场,再也听不见来自中国的声音。</p>
+                <span class="cd-date">2016.5.5</span>
             </div>
-        </section>
-        <section class="search">
-            <div class="logo"></div>
-            <p class="text italic">Sign up for our newsletter to receive a handpicked selection of the best stories, recipes, and news, delivered weekly to your inbox.</p>
-            <input type="text" class="search-item" placeholder="Email">
-            <button class="subscribe unique-regular">Subscribe</button>
-        </section>
-        <section class="blog fix-float">
-            <div class="blog-item first">
-                <div class="picture food1"></div>
-                <h3 class="title unique-regular">2012's Best Summer Cookbooks</h3>
-                <p class="content grundschrift">With the best of the season coming from "orchards, farms and gardens," NPR has put togeteher an inpressive collection of 10 summer cookbooks.</p>
-                <span class="date unique-regular">May 23, 2012/</span>
-                <span class="read unique-regular">Read</span>
+        </div>
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <img src="resource/week3/foot.png" alt="Picture">
             </div>
-            <div class="blog-item">
-                <div class="picture food2"></div>
-                <h3 class="title unique-regular">How to Make Vegetable Chips</h3>
-                <p class="content grundschrift">About a month ago, I ate almost an entire box of kale chips. My brother and I were visiting our cousin in Brooklyn, and before a very thoughtfully prepared vegan...</p>
-                <span class="date unique-regular">May 17, 2012/</span>
-                <span class="read unique-regular">Read</span>
+            <div class="cd-timeline-content">
+                <h2 class="grundschrift">Meet</h2>
+                <div class="meet bg"></div>
+                <p class="grundschrift">中国代表队终于集齐了,必须出去玩玩玩!吃吃吃!唯一的遗憾就是,竟然只有一个汉子,姑娘们很为自己在印度的安危担忧啊!</p>
+                <span class="cd-date">2016.5.7</span>
             </div>
-            <div class="blog-item">
-                <div class="picture food3"></div>
-                <h3 class="title unique-regular">Join us on Pinterest!</h3>
-                <p class="content grundschrift">If I could curate a cookbook for you, this would be it.</p>
-                <span class="date unique-regular">May 16, 2012/</span>
-                <span class="read unique-regular">Read</span>
+        </div>
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <img src="resource/week3/foot.png" alt="Picture">
             </div>
-            <div class="blog-item last">
-                <div class="picture food4"></div>
-                <h3 class="title unique-regular">Recipes from a Sunday Supper</h3>
-                <p class="content grundschrift">I could not figure out what to do with the delectable slices of Pear Cake that I brought home from this wonderful Sunday supper-eat them slowly, a little bit at...</p>
-                <span class="date unique-regular">May 15, 2012/</span>
-                <span class="read unique-regular">Read</span>
+            <div class="cd-timeline-content">
+                <h2 class="grundschrift">Beauty</h2>
+                <div class="beauty bg"></div>
+                <p class="grundschrift">美丽的印度姑娘,多想娶一个回去啊!印度最迷人的地方就在于,一出机场,你就会知道,这里是印度,到处都是浓浓的印度风情。</p>
+                <span class="cd-date">2016.5.7</span>
             </div>
-        </section>
-    </div>
+        </div>
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <img src="resource/week3/foot.png" alt="Picture">
+            </div>
+            <div class="cd-timeline-content">
+                <h2 class="grundschrift">Huddle</h2>
+                <div class="huddle bg"></div>
+                <p class="grundschrift">群魔乱舞~具体为什么已经忘记了,但是一言不合我们就群魔乱舞!</p>
+                <span class="cd-date">2016.5.10</span>
+            </div>
+        </div>
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <img src="resource/week3/foot.png" alt="Picture">
+            </div>
+            <div class="cd-timeline-content">
+                <h2 class="grundschrift">Fight</h2>
+                <div class="fight bg"></div>
+                <p class="grundschrift">只有一个汉子,为了自身安危,姑娘们决定好好锻炼身体,自我保护,顺便把唯一的男性也一起保护了,这样好的妹纸哪里去找啊!</p>
+                <span class="cd-date">2016.5.20</span>
+            </div>
+        </div>
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <img src="resource/week3/foot.png" alt="Picture">
+            </div>
+            <div class="cd-timeline-content">
+                <h2 class="grundschrift">Gandhi</h2>
+                <div class="gandhi bg"></div>
+                <p class="grundschrift">圣雄甘地被囚禁的地方。无言的抗议,静默的斗争,最终带领印度人民走上了独立自主之路。</p>
+                <span class="cd-date">2016.5.21</span>
+            </div>
+        </div>
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <img src="resource/week3/foot.png" alt="Picture">
+            </div>
+            <div class="cd-timeline-content">
+                <h2 class="grundschrift">Duke</h2>
+                <div class="duke bg"></div>
+                <p class="grundschrift">伯爵度假山庄,忙碌的TUW之旅也要放松休闲,一起在青山绿水中,敲敲鼓,跳跳舞,疯狂的过一个周末,下周又是一个鸡血满满的开始。</p>
+                <span class="cd-date">2016.5.28</span>
+            </div>
+        </div>
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <img src="resource/week3/foot.png" alt="Picture">
+            </div>
+            <div class="cd-timeline-content">
+                <h2 class="grundschrift">Dinner</h2>
+                <div class="dinner bg"></div>
+                <p class="grundschrift">Team A2 的聚餐,美味的巴西餐厅,然而点餐是一件十分困难的事情,万一点了一桌子的汤可怎么办呢!</p>
+                <span class="cd-date">2016.6.3</span>
+            </div>
+        </div>
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <img src="resource/week3/foot.png" alt="Picture">
+            </div>
+            <div class="cd-timeline-content">
+                <h2 class="grundschrift">India Movie</h2>
+                <div class="movie bg"></div>
+                <p class="grundschrift">观赏印度电影的标准姿势:必须要北京瘫style!</p>
+                <span class="cd-date">2016.6.4</span>
+            </div>
+        </div>
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <img src="resource/week3/foot.png" alt="Picture">
+            </div>
+            <div class="cd-timeline-content">
+                <h2 class="grundschrift">Last Dinner</h2>
+                <div class="last bg"></div>
+                <p class="grundschrift">最后的晚餐,一家还不错的或许是中餐馆,也或许是日本菜,我们是TWU中文最好的! PS:绿衣服的欧巴是新加坡人哦~</p>
+                <span class="cd-date">2016.6.9</span>
+            </div>
+        </div>
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <img src="resource/week3/foot.png" alt="Picture">
+            </div>
+            <div class="cd-timeline-content">
+                <h2 class="grundschrift">I Miss You</h2>
+                <div class="miss bg"></div>
+                <p class="grundschrift">TUW-59即将结束,我们也终是要从哪二来回哪儿去了,而那些一起苦逼一起傻乐的日子会变成一张张彩色照片永远刻画在心底。</p>
+                <span class="cd-date">2016.6.10</span>
+            </div>
+        </div>
+
+        <div class="cd-timeline-block">
+            <div class="cd-timeline-img">
+                <img src="resource/week3/foot.png" alt="Picture">
+            </div>
+            <div class="cd-timeline-content">
+                <h2 class="grundschrift">Back</h2>
+                <div class="back bg"></div>
+                <p class="grundschrift">启程回国,到达德里机场依旧是深夜,依旧空空荡荡,如同来时一样,而我们,终要离去。</p>
+                <span class="cd-date">2016.6.12</span>
+            </div>
+        </div>
+    </section>
+    <section class="time-line"></section>
 </main>
-<footer>
-    <div class="left">
-        <a href="" class="policy">Privacy Policy</a>
-        <a href="" class="use">Terms of Use</a>
-        <a href="" class="contact no-border">Contact</a>
-        <p class="copy-right"><span class="fa fa-copyright"></span>2015 Food Secse, all rights reserved.</p>
-    </div>
-    <div class="right">
-        <i class="link fa fa-facebook"></i>
-        <i class="link fa fa-github-alt"></i>
-        <i class="link fa fa-skype"></i>
-    </div>
-</footer>
+<footer></footer>
 </body>
 </html>

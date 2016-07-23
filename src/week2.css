@@ -142,11 +142,12 @@ aside {
       background-color: white;
       border-radius: 3px; }
   .container .blog {
-    padding-left: 25px; }
+    margin-top: 20px; }
     .container .blog .blog-item {
-      width: 23%;
-      margin: 20px 5px;
+      width: 25%;
+      box-sizing: border-box;
       float: left;
+      padding: 0px 10px;
       color: #36AB97; }
       .container .blog .blog-item .picture {
         height: 115px;
@@ -170,6 +171,10 @@ aside {
         color: #373737; }
       .container .blog .blog-item .date {
         color: #E8E8E8; }
+    .container .blog .blog-item.first {
+      padding-left: 0px; }
+    .container .blog .blog-item.last {
+      padding-right: 0px; }
 
 footer {
   width: 82%;

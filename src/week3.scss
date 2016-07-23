@@ -1,0 +1,144 @@
+body {
+  width: 100%;
+  min-width: 1000px;
+  margin: 0 auto;
+  background-color: #F9DCC4;
+}
+
+.grundschrift {
+  font-family: 'GrundschriftBold';
+  font-weight: normal;
+  font-style: normal;
+}
+
+.unique-regular {
+  font-family: 'UniqueRegular';
+  font-style: normal;
+  font-weight: normal;
+}
+
+.chinese-font {
+  font-family: "Kaiti TC";
+  font-style: normal;
+  font-weight: normal;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.fix-float:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.active {
+  background-color: #DD5893;
+}
+
+.header {
+  height: 80px;
+  background-color: black;
+  line-height: 0px;
+
+  .logo {
+    background-image: url("../resource/week3/logo.jpg");
+    height: 50px;
+    width: 50px;
+    border-radius: 40px;
+    background-size: cover;
+    float: left;
+    margin-left: 20%;
+    margin-top: 15px;
+  }
+
+  .nav {
+    width: 50%;
+    height: 80px;
+    float: left;
+
+    .nav-link {
+      width: 25%;
+      height: 80px;
+      float: left;
+
+      a {
+        text-decoration: none;
+        margin-top: 40px;
+        display: block;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+main {
+  .welcome {
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  section {
+    .cd-timeline-block {
+      .bg {
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 180px;
+      }
+      .start {
+        background-image: url("../resource/week3/start.png");
+      }
+
+      .arrive {
+        background-image: url("../resource/week3/arrive.png");
+      }
+
+      .meet {
+        background-image: url("../resource/week3/meet.JPG");
+      }
+
+      .beauty {
+        background-image: url("../resource/week3/beauty.png");
+      }
+
+      .huddle {
+         background-image: url("../resource/week3/huddle.png");
+       }
+
+      .fight {
+        background-image: url("../resource/week3/fight.png");
+      }
+
+      .gandhi {
+        background-image: url("../resource/week3/gandhi.png");
+      }
+
+      .duke {
+        background-image: url("../resource/week3/duke.png");
+      }
+
+      .dinner {
+        background-image: url("../resource/week3/dinner.png");
+      }
+
+      .movie {
+        background-image: url("../resource/week3/movie.png");
+      }
+
+      .last {
+        background-image: url("../resource/week3/last.png");
+      }
+
+      .miss {
+        background-image: url("../resource/week3/miss.png");
+      }
+
+      .back {
+        background-image: url("../resource/week3/back.png");
+      }
+    }
+  }
+}

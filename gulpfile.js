@@ -3,7 +3,7 @@ var sass = require('gulp-sass');
 var gls = require('gulp-live-server');
 
 gulp.task('sass', function () {
-  return gulp.src('./src/week2.scss')
+  return gulp.src('./src/week3.scss')
     .pipe(sass().on('error', sass.logError))
     .pipe(gulp.dest('./dist'));
 });
